@@ -109,7 +109,7 @@ export default class App extends React.Component {
                 }}
               >Gav & Elo are getting hitched <Icon name="heart" style={{ color: variables.color.red }} /></Text>
             </View>
-            <View style={{ flex: 1, flexDirection: 'row', overflow: 'hidden' }}>
+            <View style={{ flex: 1, flexDirection: 'row', overflow: 'hidden', justifyContent: 'space-between' }}>
               <View style={{
                 width: '50%',
               }}>
